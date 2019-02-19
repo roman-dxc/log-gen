@@ -16,7 +16,7 @@ import logging
 import random
 from time import sleep
 
-LOG_PATH = "/home/ubuntu/logs/logejemplo.log"
+LOG_PATH = "/var/log/ejemplo.log"
 # LOG_PATH = "C:\\Users\\rbatsyatsyny\\python-workplace\\prueba.log"
 LOG_LEVEL = logging.DEBUG
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
