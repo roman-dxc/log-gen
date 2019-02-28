@@ -16,7 +16,7 @@ import logging
 import random
 from time import sleep
 
-LOG_PATH = "/log-gen/ejemplo.log"
+LOG_PATH = "/log-gen/ejemplo.log" # comentario
 LOG_LEVEL = logging.DEBUG
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 logging.basicConfig(
