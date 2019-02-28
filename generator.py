@@ -51,5 +51,3 @@ for x in range(0, 5):
 	insertar_en_log(logger, cad)
 	
 	sleep(2) # segundos
-
-
