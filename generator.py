@@ -16,8 +16,7 @@ import logging
 import random
 from time import sleep
 
-LOG_PATH = "/var/log/ejemplo.log"
-# LOG_PATH = "C:\\Users\\rbatsyatsyny\\python-workplace\\prueba.log"
+LOG_PATH = "/log-gen/ejemplo.log"
 LOG_LEVEL = logging.DEBUG
 LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
 logging.basicConfig(
@@ -46,7 +45,7 @@ def insertar_en_log(logger, txt):
 
 logger = logging.getLogger()
 
-for x in range(0, 100):
+for x in range(0, 5):
 	cad = " --> Entrada " + str(x) + " <-- "
 	
 	insertar_en_log(logger, cad)
