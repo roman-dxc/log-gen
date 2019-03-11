@@ -46,7 +46,7 @@ def insertar_en_log(logger, txt):
 logger = logging.getLogger()
 
 for x in range(0, 5):
-	cad = " --> Entrada " + str(x) + " <-- "
+	cad = " Memoria cache llena, el rendimiento no es optimo (" + str(x) + ")"
 	
 	insertar_en_log(logger, cad)
 	
